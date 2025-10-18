@@ -1,12 +1,14 @@
-# React + Vite
+# advanced-maze-solver
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Maze solver and generator for the browser
 
-Currently, two official plugins are available:
+Solves mazes with breadth-first, depth-first, and A* search, displays path from start to end
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Can generate mazes with a radomized form of depth-first traversal, Prim's algorithm, and Kruskal's algorithm
 
-## Expanding the ESLint configuration
+Users can create maze themselves or generate a maze and then edit it
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Command to run locally
+
+npx http-server .
+Enter url -> http://localhost:8080
