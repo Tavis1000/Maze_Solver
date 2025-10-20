@@ -1,14 +1,20 @@
-# advanced-maze-solver
+# Advanced Maze Solver
 
-Maze solver and generator for the browser
+An interactive **maze solver and generator** built for the browser.  
+Visualize how pathfinding and maze-generation algorithms work through smooth, step-by-step animations.  
 
-Solves mazes with breadth-first, depth-first, and A* search, displays path from start to end
+---
 
-Can generate mazes with a radomized form of depth-first traversal, Prim's algorithm, and Kruskal's algorithm
+## Run Locally
 
-Users can create maze themselves or generate a maze and then edit it
+You can host and test the project locally using any static server (e.g., `http-server`):
 
-Command to run locally
+```bash
+# Step 1: Install http-server if not already installed
+npm install -g http-server
 
+# Step 2: Start the local server
 npx http-server .
-Enter url -> http://localhost:8080
+
+# Step 3: Open the following URL in your browser
+http://localhost:8080
